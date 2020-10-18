@@ -10,3 +10,7 @@ dependencies {
     implementation 'com.google.guava:guava:29.0-jre'
     testImplementation 'junit:junit:4.12'
 }
+
+plugins {
+  id "org.sonarqube" version "7.9.4"
+}
